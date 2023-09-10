@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    /* Paleta de colores */
+    --red-solid: #FF3333;
+    --red-900: rgba(255, 51, 51, 0.9);
+    --red-900: rgba(255, 51, 51, 0.5);
+    --red-900: rgba(255, 51, 51, 0.3);
+
+    --blue-solid: #1D84B5;
+    --blue-solid: rgba(29, 132, 181, 0.9);
+    --blue-solid: rgba(29, 132, 181, 0.5);
+    --blue-solid: rgba(29, 132, 181, 0.3);
+
+    --gray-solid: #30343F;
+    --gray-solid: rgba(48, 52, 63, 0.9);
+    --gray-solid: rgba(48, 52, 63, 0.5);
+    --gray-solid: rgba(48, 52, 63, 0.3);
+
+    --negro-solid: #1F1F1F;
+    --negro-solid: rgba(31, 31, 31, 0.9);
+    --negro-solid: rgba(31, 31, 31, 0.5);
+    --negro-solid: rgba(31, 31, 31, 0.3);
+
+    --fucsia-solid: #FF1654;
+    --fucsia-solid: rgba(255, 22, 84, 0.9);
+    --fucsia-solid: rgba(255, 22, 84, 0.5);
+    --fucsia-solid: rgba(255, 22, 84, 0.3);
+
+    --dark-bg-solid: #30343f;
+    --light-bg-solid: #fafaff;
+    --light-font-solid: #ffffff;
+
+    /* Typografias */
+    --principal-font: 'Inter', sans-serif;
+    --secundary-font: 'Raleway', sans-serif;
+
+    /* Font-sizes */
+    --font-display: 4.6em;
+    --font-jumbo: 3.8em;
+    --font-xlarge: 3em;
+    --font-large: 2.8em;
+    --font-medium: 1.8em;
+    --font-small: 1.6em;
+    --font-xsmall: 1.4em; 
+
+    /* Spacings */
+    --spacing-128: 12.8rem;
+    --spacing-68: 6.8rem;
+    --spacing-36: 3.6rem;
+    --spacing-28: 2.8rem;
+    --spacing-24: 2.4rem;
+    --spacing-20: 2rem;
+    --spacing-16: 1.6rem;
+    --spacing-12: 1.2rem;
+    --spacing-8: 0.8rem;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* La unidad de medida recomendad para las fuentes es "em" */
+html {
+    font-family: var(--principal-font);
+    font-size: 62.5%; /* esto hace que las letras midan 10px - cada em ahora mide 10px */
+    color: #111111;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2em; /* esto es igual a 20px */
+    color:  inherit;
+}
+
+header,
+footer {
+    font-family: var(--secundary-font); 
+    color: var(--light-font-solid);
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+p {
+    font-size: 1.8em; /* esto es igual a 18px */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+} 
