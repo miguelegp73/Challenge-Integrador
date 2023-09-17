@@ -108,14 +108,13 @@ header{
     padding: var(--spacing-36);
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
     z-index: 2;
 }
-
 .navbar__logo{
     max-width: 300px;
 }
