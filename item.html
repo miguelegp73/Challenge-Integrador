@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Funkoshop</title>
+    <title>ITEM</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar container">
             <picture class="navbar__logo">
-                <a href="./index.html">
-                    <img src="./assets/img/branding/logo_light_horizontal.svg" alt="Logo de la marca Funkoshop">
+                <a href="/index.html">
+                    <img src="/assets/img/branding/logo_light_horizontal.svg" alt="Logo de la marca Funkoshop">
                 </a>
             </picture>
             <ul class="navbar__menu">
                 <li class="navbar__item with-submenu">
-                    <a class="navbar__link with-icon" href="./pages/shop.html">SHOP<iconify-icon
+                    <a class="navbar__link with-icon" href="shop.html">SHOP<iconify-icon
                             icon="tabler:chevron-down"></iconify-icon></a>
                     <ul class="submenu">
                         <li class="submenu__item">
@@ -42,55 +42,33 @@
                 </li>
                 <li class="navbar__item">
                     <a class="navbar__cart" href="./pages/cart.html">
-                        <img src="./assets/img/icons/cart-icon.svg" alt="icono del carrito de compra">
+                        <img src="/assets/img/icons/cart-icon.svg" alt="icono del carrito de compra">
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section class="hero">
-        <article class="hero__content container">
-            <h2 class="hero__title">Nuevos Ingresos</h2>
-            <p class="hero__text">Describi el proximo funko Pop de tu coleccion</p>
-            <a class="hero__link" href="./pages/shop.html">Shop</a>
-        </article>
-    </section>
     <main class="main-container">
         <section class="collection container">
-            <article class="collection__content">
-                <h3 class="collection__title">STAR WARS & THE MANDALORIAN</h3>
-                <p class="collection__text">Disfruta de una saga que sigue agregando personajes a su coleccion.</p>
-                <a class="collection__link" href="./pages/shop">VER COLECCION</a>
-            </article>
-            <picture class="collection__cover">
-                <img src="./assets/img/star-wars/baby-yoda-1.webp"
-                    alt="Figura coleccionable Funko de Grogu de la serie the Mandalorian">
+            <picture>
+                <img src="/assets/img/star-wars/baby-yoda-1.webp" alt="">
             </picture>
-        </section>
-        <section class="collection container">
-            <article class="collection__content">
-                <h3 class="collection__title">POKEMON INDIGO</h3>
-                <p class="collection__text">Atrapa todos los que puedas y disfruta de una colección llena de amigos.</p>
-                <a class="collection__link" href="./pages/shop">VER COLECCION</a>
+            <article class="item">
+                <p class="item__licence">STAR WARS</p>
+                <h3 class="item__name">BABY YODA BLUEBALL</h3>
+                <p class="item__text">Figura coleccionable de Baby Yoda (Grogu) - The Mandalorian Saga, edicion limitada
+                </p>
+                <p class="item__price">$ 1799,99</p>
+                <div>
+                    <a class="item__carrito" href="http://">Agregar al Carrito</a>
+                </div>
+                <div>
+                    <p class="item__promo"><a href="">Ver metodos de pago</a> - 3 CUOTAS SIN INTERES</p>
+                </div>
             </article>
-            <picture class="collection__cover">
-                <img src="./assets/img/pokemon/vulpix-1.webp"
-                    alt="Figura coleccionable Funko de Vulpix de la serie Pokemon">
-            </picture>
-        </section>
-        <section class="collection container">
-            <article class="collection__content">
-                <h3 class="collection__title">HARRY POTTER</h3>
-                <p class="collection__text">Revive los recuerdos de una saga llena de magia y encanto.</p>
-                <a class="collection__link" href="./pages/shop">VER COLECCION</a>
-            </article>
-            <picture class="collection__cover">
-                <img src="./assets/img/harry-potter/snape-patronus-1.webp"
-                    alt="Figura coleccionable Funko del Patronus de Snape en la pelicula Harry Potter">
-            </picture>
         </section>
         <section class="carrusel container glide">
-            <h2 class="carrusel__title">ULTIMOS LANZAMIENTOS</h2>
+            <h2 class="carrusel__title">PRODUCTOS RELACIONADOS</h2>
             <div class="glide__track" data-glide-el="track">
                 <ul class="carrusel__items glide__slides">
                     <li class="carrusel__item glide__slide">
@@ -155,9 +133,11 @@
                 </ul>
             </div>
             <div class="glide__arrows" data-glide-el="controls">
-                <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><iconify-icon icon="mdi:chevron-left"></iconify-icon></button>
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><iconify-icon
+                        icon="mdi:chevron-left"></iconify-icon></button>
 
-                <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><iconify-icon icon="mdi:chevron-right"></iconify-icon></button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><iconify-icon
+                        icon="mdi:chevron-right"></iconify-icon></button>
             </div>
         </section>
     </main>
@@ -187,21 +167,27 @@
     <script>
     </script>
     <script>
-        new Glide('.glide',{
+        new Glide('.glide', {
             type: "carrousel",
             startAt: 0,
             perView: 3,
             gap: 30,
-            breackpoint:{
-                991:{
+            breackpoint: {
+                991: {
                     perView: 2
                 },
-                768:{
+                768: {
                     perView: 1
                 }
             }
         }).mount();
     </script>
+
+
+
+    </main>
+
+
 </body>
 
 </html>

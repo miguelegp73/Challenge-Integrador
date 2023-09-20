@@ -273,6 +273,49 @@ header{
     background-color: var(--red-900);
 }
 
+/* STYLE FUNKO PRINCIPAL DE PAGINA ITEM*/
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-12);
+    padding: var(--spacing-16);
+}
+
+.item__licence{
+    font: var(--principal-font);
+    font-size: var(--font-small);
+    font-weight: 500;
+    color: var(--gray-solid)
+}
+
+.item__name{
+    font: var(--principal-font);
+    font-size: var(--font-xlarge);
+    font-weight: 700;
+}
+
+.item__text{
+    font: var(--principal-font);
+    font-size: var(--font-large);
+    font-weight: 400;
+    color: var(--gray-solid)
+}
+
+.item__price{
+    font: var(--principal-font);
+    font-size: var(--font-jumbo);
+    font-weight: 400;
+    color: var(--gray-solid)
+}
+
+.item__promo{
+    font: var(--principal-font);
+    font-size: var(--font-small);
+    font-weight: 700;
+    color: var(--blue-solid)
+}
+
 /* ULTIMOS LANZAMIENTOS - SLIDER*/
 
 .carrusel{
@@ -287,10 +330,10 @@ header{
     font-size: var(--font-display);
 }
 
-.carrusel__items{
-    display: flex;
-    gap: var(--spacing-24);
-}
+/* .carrusel__items{ 
+display: flex;
+gap: var(--spacing-24);
+}  Quitamos este codigo porque entra en conflicto con los estilos de la libreria de slider "GLIDE" el carrusel quedaba corrido hacia un lado*/
 
 .card-item__cover{
     display: flex;

@@ -1,0 +1,20 @@
+<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 10">
+<g id="Rectangle 17" filter="url(#filter0_d_19905_472)">
+<rect x="40.2544" y="40.2761" width="35.33" height="35.5523" rx="4" transform="rotate(-180 40.2544 40.2761)" fill="white"/>
+</g>
+<path id="Vector 1 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M20.5947 28.2556L18.8515 26.3611L23.4505 22.1295L18.9459 18.7178L20.5003 16.6656L27.4611 21.9376L20.5947 28.2556Z" fill="#595959"/>
+</g>
+<defs>
+<filter id="filter0_d_19905_472" x="0.924438" y="0.723877" width="43.33" height="43.5522" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.17 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_19905_472"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_19905_472" result="shape"/>
+</filter>
+</defs>
+</svg>
